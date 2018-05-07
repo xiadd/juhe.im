@@ -1,0 +1,30 @@
+{
+  "name": "juhe.im",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config -r esm server.js dotenv_config_path=.env.development",
+    "start": "node -r dotenv/config -r esm server.js dotenv_config_path=.env.production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "config": "^1.30.0",
+    "debug": "^3.1.0",
+    "dotenv": "^5.0.1",
+    "esm": "^3.0.30",
+    "koa": "^2.5.1",
+    "koa-mount": "^3.0.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^4.0.2",
+    "koa-views": "^6.1.4",
+    "nunjucks": "^3.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}
