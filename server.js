@@ -1,11 +1,4 @@
-import Koa from 'koa'
-import Router from 'koa-router'
-
-const app = new Koa()
-
-app.use(ctx => {
-  ctx.body = 'xiadd'
-})
+import app from './src/app'
 
 app.listen(8080, () => {
   console.log('server is running')
