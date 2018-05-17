@@ -5,7 +5,7 @@ export default function setCorrectResponse() {
       if (ctx.status === 404) {
         ctx.throw(404)
       }
-      if (ctx.url.indexOf('/') !== -1) {
+      if (ctx.url === '/') {
         return
       }
       ctx.body = {

@@ -4,4 +4,4 @@ const baseRequest = axios.create({
 
 })
 
-export default instance.request
+export default baseRequest.request
