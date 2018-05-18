@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>数据接口聚合 | 快递100</title>
+    <meta name="description" content="数据接口大整理">
+    
+    
+    <link rel="preload" href="/assets/css/4.styles.6431b4d5.css" as="style"><link rel="preload" href="/assets/js/app.9c0f21c0.js" as="script"><link rel="preload" href="/assets/js/1.b9d2c238.js" as="script"><link rel="prefetch" href="/assets/js/0.dede9cf8.js"><link rel="prefetch" href="/assets/js/2.1e27c818.js"><link rel="prefetch" href="/assets/js/3.b04fdfd1.js">
+    <link rel="stylesheet" href="/assets/css/4.styles.6431b4d5.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div><a href="/" class="home-link router-link-active"><!----><span class="site-name">
+      数据接口聚合
+    </span></a><div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""><!----></div><nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><a href="/novel/" class="nav-link">小说</a></div><div class="nav-item"><a href="/jandan/" class="nav-link">煎蛋</a></div><div class="nav-item"><a href="/kuaidi/" class="nav-link router-link-exact-active router-link-active">快递</a></div><!----></nav></div></header><div class="sidebar-mask"></div><div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><a href="/novel/" class="nav-link">小说</a></div><div class="nav-item"><a href="/jandan/" class="nav-link">煎蛋</a></div><div class="nav-item"><a href="/kuaidi/" class="nav-link router-link-exact-active router-link-active">快递</a></div><!----></nav><ul class="sidebar-links"><li><div class="sidebar-group first"><p class="sidebar-heading open"><span>快递100</span><!----></p><ul class="sidebar-group-items"><li><a href="/kuaidi/#快递100" class="sidebar-link">快递100</a><ul class="sidebar-sub-headers"></ul></li></ul></div></li></ul></div><div class="page"><div class="content"><h2 id="快递100"><a href="#快递100" aria-hidden="true" class="header-anchor">#</a> 快递100</h2><p>url：<code>http://juhe.im/kuaidi/info</code></p><p>拼接参数：</p><table><thead><tr><th>参数名称</th><th style="text-align:center">参数取值</th><th style="text-align:right">参数类型</th></tr></thead><tbody><tr><td>type</td><td style="text-align:center">快递码，请参考<a href="https://github.com/jokermonn/-Api/blob/master/ExpressDelivery100Code.json" target="_blank" rel="noopener noreferrer">快递100码</a></td><td style="text-align:right">String</td></tr><tr><td>postid</td><td style="text-align:center">快递单号</td><td style="text-align:right">String</td></tr><tr><td>id</td><td style="text-align:center">未知，可为空</td><td style="text-align:right">String</td></tr><tr><td>valicode</td><td style="text-align:center">未知，可为空</td><td style="text-align:right">String</td></tr><tr><td>temp</td><td style="text-align:center">未知，可为空</td><td style="text-align:right">String</td></tr></tbody></table><p>url 示例：<a href="https://www.kuaidi100.com/query?type=yuantong&postid=2234014274&id=1&valicode=&temp=" target="_blank" rel="noopener noreferrer"><code>http://juhe.im/kuaidi/info?type=yuantong&amp;postid=2234014274&amp;id=1&amp;valicode=&amp;temp=</code></a>（<code>圆通</code>单号为<code>2234014274</code>的快递，不过快递已经过期了，所以显示不了信息，可以自行套用快递单号）</p><p>请求方式：<code>GET</code></p><p>json 示例：</p><pre><code>{
+    &quot;message&quot;: &quot;ok&quot;,
+    &quot;nu&quot;: &quot;2234014274&quot;,
+    &quot;ischeck&quot;: &quot;1&quot;,
+    &quot;condition&quot;: &quot;F00&quot;,
+    &quot;com&quot;: &quot;yuantong&quot;,
+    &quot;status&quot;: &quot;200&quot;,
+    &quot;state&quot;: &quot;3&quot;,
+    &quot;data&quot;: [
+      {
+        &quot;time&quot;: &quot;2016-11-26 19:10:30&quot;,
+        &quot;ftime&quot;: &quot;2016-11-26 19:10:30&quot;,
+        &quot;context&quot;: &quot;客户 签收人 : 本人签收 已签收  感谢使用圆通速递，期待再次为您服务&quot;,
+        &quot;location&quot;: null
+      },
+      {
+        &quot;time&quot;: &quot;2016-11-22 18:19:03&quot;,
+        &quot;ftime&quot;: &quot;2016-11-22 18:19:03&quot;,
+        &quot;context&quot;: &quot;派送不成功，政府机关、学校等特殊单位，正在安排处理中。&quot;,
+        &quot;location&quot;: null
+      },
+      {
+        &quot;time&quot;: &quot;2016-11-22 14:20:50&quot;,
+        &quot;ftime&quot;: &quot;2016-11-22 14:20:50&quot;,
+        &quot;context&quot;: &quot;北京大学 已签收&quot;,
+        &quot;location&quot;: null
+      },
+      {
+        &quot;time&quot;: &quot;2016-11-22 10:33:25&quot;,
+        &quot;ftime&quot;: &quot;2016-11-22 10:33:25&quot;,
+        &quot;context&quot;: &quot;北京七道堰 已发出,下一站 北京大学&quot;,
+        &quot;location&quot;: null
+      },
+      {
+        &quot;time&quot;: &quot;2016-11-22 10:27:47&quot;,
+        &quot;ftime&quot;: &quot;2016-11-22 10:27:47&quot;,
+        &quot;context&quot;: &quot;北京六和塔 已收入&quot;,
+        &quot;location&quot;: null
+      },
+      {
+        &quot;time&quot;: &quot;2016-11-22 16:53:18&quot;,
+        &quot;ftime&quot;: &quot;2016-11-22 16:53:18&quot;,
+        &quot;context&quot;: &quot;浙江省五道口 已发出,下一站 北京转运中心&quot;,
+        &quot;location&quot;: null
+      },
+      {
+        &quot;time&quot;: &quot;2016-11-22 00:33:51&quot;,
+        &quot;ftime&quot;: &quot;2016-11-22 00:33:51&quot;,
+        &quot;context&quot;: &quot;浙江省四码头 已收入&quot;,
+        &quot;location&quot;: null
+      },
+      {
+        &quot;time&quot;: &quot;2016-11-11 23:53:09&quot;,
+        &quot;ftime&quot;: &quot;2016-11-11 23:53:09&quot;,
+        &quot;context&quot;: &quot;浙江省三里屯 已发出,下一站 浙江省金华市义乌市&quot;,
+        &quot;location&quot;: null
+      },
+      {
+        &quot;time&quot;: &quot;2016-11-11 20:04:10&quot;,
+        &quot;ftime&quot;: &quot;2016-11-11 20:04:10&quot;,
+        &quot;context&quot;: &quot;浙江省二亩地 已打包&quot;,
+        &quot;location&quot;: null
+      },
+      {
+        &quot;time&quot;: &quot;2016-11-1 18:11:16&quot;,
+        &quot;ftime&quot;: &quot;2016-11-11 18:11:16&quot;,
+        &quot;context&quot;: &quot;浙江省一条街 已揽收&quot;,
+        &quot;location&quot;: null
+      }
+    ]
+  }
+</code></pre><p>解析：</p><ul><li><code>message</code>：<code>ok</code> 则表示没有问题，否则携带错误信息</li><li><code>nu</code>：运单号</li><li><code>ischeck</code>：<code>1</code>表示成功，<code>0</code>表示错误</li><li><code>com</code>：快递拼音</li><li><code>data</code>：具体到达的派送点，逆序</li><li><code>time</code>：到达时间</li><li><code>ftime</code>：到达时间</li><li><code>context</code>：到达地点具体信息</li><li><code>location</code>：到达地点，但取值一直为 <code>null</code></li></ul></div><!----><!----></div></div></div>
+    <script src="/assets/js/1.b9d2c238.js" defer></script><script src="/assets/js/app.9c0f21c0.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>数据接口聚合 | 追书神器接口</title>
+    <meta name="description" content="数据接口大整理">
+    
+    
+    <link rel="preload" href="/assets/css/4.styles.6431b4d5.css" as="style"><link rel="preload" href="/assets/js/app.9c0f21c0.js" as="script"><link rel="preload" href="/assets/js/0.dede9cf8.js" as="script"><link rel="prefetch" href="/assets/js/1.b9d2c238.js"><link rel="prefetch" href="/assets/js/2.1e27c818.js"><link rel="prefetch" href="/assets/js/3.b04fdfd1.js">
+    <link rel="stylesheet" href="/assets/css/4.styles.6431b4d5.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div><a href="/" class="home-link router-link-active"><!----><span class="site-name">
+      数据接口聚合
+    </span></a><div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""><!----></div><nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><a href="/novel/" class="nav-link router-link-exact-active router-link-active">小说</a></div><div class="nav-item"><a href="/jandan/" class="nav-link">煎蛋</a></div><div class="nav-item"><a href="/kuaidi/" class="nav-link">快递</a></div><!----></nav></div></header><div class="sidebar-mask"></div><div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><a href="/novel/" class="nav-link router-link-exact-active router-link-active">小说</a></div><div class="nav-item"><a href="/jandan/" class="nav-link">煎蛋</a></div><div class="nav-item"><a href="/kuaidi/" class="nav-link">快递</a></div><!----></nav><ul class="sidebar-links"><li><div class="sidebar-group first"><p class="sidebar-heading open"><span>追书神器接口</span><!----></p><ul class="sidebar-group-items"><li><a href="/novel/#追书神器接口" class="sidebar-link">追书神器接口</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/novel/#帮助与支持" class="sidebar-link">帮助与支持</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/novel/#开发与部署" class="sidebar-link">开发与部署</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/novel/#api接口" class="sidebar-link">api接口</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/novel/#获取带书籍数量的父分类" class="sidebar-link">获取带书籍数量的父分类</a></li><li class="sidebar-sub-header"><a href="/novel/#获取带子分类的分类" class="sidebar-link">获取带子分类的分类</a></li><li class="sidebar-sub-header"><a href="/novel/#获取分类详情" class="sidebar-link">获取分类详情</a></li><li class="sidebar-sub-header"><a href="/novel/#获取书籍详情" class="sidebar-link">获取书籍详情</a></li><li class="sidebar-sub-header"><a href="/novel/#获取书籍相关推荐" class="sidebar-link">获取书籍相关推荐</a></li><li class="sidebar-sub-header"><a href="/novel/#获取作者名下的书籍" class="sidebar-link">获取作者名下的书籍</a></li><li class="sidebar-sub-header"><a href="/novel/#获取书籍源" class="sidebar-link">获取书籍源</a></li><li class="sidebar-sub-header"><a href="/novel/#获取书籍章节" class="sidebar-link">获取书籍章节</a></li><li class="sidebar-sub-header"><a href="/novel/#获取章节详细内容" class="sidebar-link">获取章节详细内容</a></li><li class="sidebar-sub-header"><a href="/novel/#获取搜索结果" class="sidebar-link">获取搜索结果</a></li><li class="sidebar-sub-header"><a href="/novel/#获取排名分类" class="sidebar-link">获取排名分类</a></li><li class="sidebar-sub-header"><a href="/novel/#获取排名详情" class="sidebar-link">获取排名详情</a></li><li class="sidebar-sub-header"><a href="/novel/#书评-讨论" class="sidebar-link">书评-讨论</a></li><li class="sidebar-sub-header"><a href="/novel/#书评-短评" class="sidebar-link">书评-短评</a></li><li class="sidebar-sub-header"><a href="/novel/#书评-长评" class="sidebar-link">书评--长评</a></li><li class="sidebar-sub-header"><a href="/novel/#书单" class="sidebar-link">书单</a></li><li class="sidebar-sub-header"><a href="/novel/#书单详情" class="sidebar-link">书单详情</a></li></ul></li></ul></div></li></ul></div><div class="page"><div class="content"><h2 id="追书神器接口"><a href="#追书神器接口" aria-hidden="true" class="header-anchor">#</a> 追书神器接口</h2><p>这里整理的追书神器接口， 不保证实时更新，如有侵权请联系删除。</p><p>欢迎加入群讨论:</p><p><img src="https://camo.githubusercontent.com/a63f5178a3128dd2bdff9e7f358e66217de27dd2/68747470733a2f2f6f6f6f2e306f302e6f6f6f2f323031372f30312f31382f353837663331346538616335612e706e67" alt="群"></p><h2 id="帮助与支持"><a href="#帮助与支持" aria-hidden="true" class="header-anchor">#</a> 帮助与支持</h2><p>服务器还是挺贵的, 尤其香港的, 希望大家支持一下吧, 帮助小站持续运营, 请点击下面搬瓦工链接注册一下, 我也收获点aff支撑服务器运营:</p><p><a href="https://bandwagonhost.com/aff.php?aff=30537" target="_blank" rel="noopener noreferrer">搬瓦工</a></p><p><code>http://juhe.im/novel</code></p><p>注意: **如果运行在自己的服务器的话 请务必使用node 7.6</p><p>以上**(因为很多模块直接用到了async,所以就算加上babel也没用, 打包过后仍然是直接引用)</p><p>已经允许跨域 前端一般无需进行任何配置</p><p>由于有速率限制, 所以请保证redis在运行中(默认端口)</p><p>这里使用的是pm2的自动部署, 具体链接可查看<a href="http://pm2.keymetrics.io/docs/usage/deployment/" target="_blank" rel="noopener noreferrer">自动部署</a></p><p>另外这里移除了用户部分, 如果需要把注释删除即可,但是请注意mongodb是否运行中</p><p>关于静态资源不再提供补全 前端中自行补全 静态资源地址为: <code>http://statics.zhuishushenqi.com</code></p><h2 id="开发与部署"><a href="#开发与部署" aria-hidden="true" class="header-anchor">#</a> 开发与部署</h2><p><code>npm run dev</code>: 启动开发服务器</p><p><s><code>npm run build</code>: 通过babel打包</s> 已经移除babel</p><p>部署按照正常node 部署即可·<code>npm start</code></p><h2 id="api接口"><a href="#api接口" aria-hidden="true" class="header-anchor">#</a> api接口</h2><h3 id="获取带书籍数量的父分类"><a href="#获取带书籍数量的父分类" aria-hidden="true" class="header-anchor">#</a> 获取带书籍数量的父分类</h3><p>url: <code>http://juhe.im/novel/categories</code></p><h3 id="获取带子分类的分类"><a href="#获取带子分类的分类" aria-hidden="true" class="header-anchor">#</a> 获取带子分类的分类</h3><p>url: <code>http://juhe.im/novel/sub-categories</code></p><h3 id="获取分类详情"><a href="#获取分类详情" aria-hidden="true" class="header-anchor">#</a> 获取分类详情</h3><p>url: <code>http://juhe.im/novel/category-info?gender=male&amp;type=hot&amp;major=奇幻&amp;minor=&amp;start=0&amp;limit=20</code></p><p>query:</p><pre class="language-js"><code><span class="token punctuation">{</span>
+  gender<span class="token punctuation">,</span> type<span class="token punctuation">,</span> <span class="token function">major</span><span class="token punctuation">(</span>主分类<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token function">minor</span><span class="token punctuation">(</span>子分类<span class="token punctuation">)</span><span class="token punctuation">,</span> start<span class="token punctuation">,</span> limit
+<span class="token punctuation">}</span>
+</code></pre><h3 id="获取书籍详情"><a href="#获取书籍详情" aria-hidden="true" class="header-anchor">#</a> 获取书籍详情</h3><p>url: <code>http://juhe.im/novel/book-info/53115e30173bfacb4904897e</code></p><p>params:</p><pre class="language-js"><code><span class="token punctuation">{</span>
+  id<span class="token punctuation">:</span> book id
+<span class="token punctuation">}</span>
+</code></pre><h3 id="获取书籍相关推荐"><a href="#获取书籍相关推荐" aria-hidden="true" class="header-anchor">#</a> 获取书籍相关推荐</h3><p>url: <code>http://juhe.im/novel/recommend/53115e30173bfacb4904897e</code></p><p>query:</p><pre class="language-js"><code><span class="token punctuation">{</span>
+  id<span class="token punctuation">:</span> 书籍id
+<span class="token punctuation">}</span>
+</code></pre><h3 id="获取作者名下的书籍"><a href="#获取作者名下的书籍" aria-hidden="true" class="header-anchor">#</a> 获取作者名下的书籍</h3><p>url: <code>http://juhe.im/novel/author-books?author=忘语</code></p><p>query:</p><pre class="language-js"><code><span class="token punctuation">{</span>
+  author<span class="token punctuation">:</span> 作者名
+<span class="token punctuation">}</span>
+</code></pre><h3 id="获取书籍源"><a href="#获取书籍源" aria-hidden="true" class="header-anchor">#</a> 获取书籍源</h3><p>url: <code>http://juhe.im/novel/book-sources?view=summary&amp;book=567d2cb9ee0e56bc713cb2c0</code></p><p>query:</p><pre class="language-js"><code><span class="token punctuation">{</span>
+  view<span class="token punctuation">:</span> summary<span class="token punctuation">,</span>
+  book<span class="token punctuation">:</span> <span class="token punctuation">{</span>bookid<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><h3 id="获取书籍章节"><a href="#获取书籍章节" aria-hidden="true" class="header-anchor">#</a> 获取书籍章节</h3><p>url: <code>http://juhe.im/novel/book-chapters/56f8da09176d03ac1983f6cd</code></p><p>params:</p><pre class="language-js"><code><span class="token punctuation">{</span>
+  id<span class="token punctuation">:</span> <span class="token punctuation">{</span>书籍源id<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><h3 id="获取章节详细内容"><a href="#获取章节详细内容" aria-hidden="true" class="header-anchor">#</a> 获取章节详细内容</h3><p>url: <code>http://juhe.im/novel/chapters/http%3A%2F%2Fvip.zhuishushenqi.com%2Fchapter%2F56f8da09176d03ac1983f6d7%3Fcv%3D1486473051386</code><strong>注意这里需要进行url编码</strong></p><p>params:</p><pre class="language-js"><code><span class="token punctuation">{</span>
+  link<span class="token punctuation">:</span> <span class="token punctuation">{</span>目录中的章节link<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><h3 id="获取搜索结果"><a href="#获取搜索结果" aria-hidden="true" class="header-anchor">#</a> 获取搜索结果</h3><p>url: <code>http://juhe.im/novel/search?keyword=遮天</code></p><p>query:</p><pre class="language-js"><code><span class="token punctuation">{</span>
+  keyword<span class="token punctuation">:</span> <span class="token punctuation">{</span>书籍关键字<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><h3 id="获取排名分类"><a href="#获取排名分类" aria-hidden="true" class="header-anchor">#</a> 获取排名分类</h3><p>url: <code>http://juhe.im/novel/rank-category</code></p><h3 id="获取排名详情"><a href="#获取排名详情" aria-hidden="true" class="header-anchor">#</a> 获取排名详情</h3><p>url: <code>http://juhe.im/novel/rank/54d42d92321052167dfb75e3</code></p><p>params:</p><pre class="language-json"><code><span class="token punctuation">{</span>
+  id<span class="token operator">:</span> <span class="token punctuation">{</span>排名分类的id<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><h3 id="书评-讨论"><a href="#书评-讨论" aria-hidden="true" class="header-anchor">#</a> 书评-讨论</h3><p>url: <code>http://api.zhuishushenqi.com/post/by-book?&amp;start=21&amp;limit=20</code></p><p>request:</p><pre class="language-json"><code>query strings<span class="token operator">:</span> <span class="token punctuation">{</span>
+  book<span class="token operator">:</span> <span class="token punctuation">{</span>bookId<span class="token punctuation">}</span><span class="token punctuation">,</span>
+  sort<span class="token operator">:</span> (updated|created|comment-count<span class="token punctuation">)</span> // 排序方式
+  type<span class="token operator">:</span> (normal<span class="token punctuation">,</span>vote<span class="token punctuation">)</span> // 未知
+  start<span class="token punctuation">,</span>
+  limit
+<span class="token punctuation">}</span>
+</code></pre><p>response:</p><pre class="language-json"><code><span class="token punctuation">{</span>
+	<span class="token property">&quot;posts&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span>
+		<span class="token property">&quot;_id&quot;</span><span class="token operator">:</span> <span class="token string">&quot;59b25a1ca17d25ad324e208d&quot;</span><span class="token punctuation">,</span>
+		<span class="token property">&quot;author&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+			<span class="token property">&quot;_id&quot;</span><span class="token operator">:</span> <span class="token string">&quot;54ef4d94704d6be45528af89&quot;</span><span class="token punctuation">,</span>
+			<span class="token property">&quot;avatar&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/avatar/34/bb/34bbc2992b34e6a042a83be1f6f3b735&quot;</span><span class="token punctuation">,</span> //http<span class="token operator">:</span>//statics.zhuishushenqi.com
+			<span class="token property">&quot;nickname&quot;</span><span class="token operator">:</span> <span class="token string">&quot;追书家的小萝莉&quot;</span><span class="token punctuation">,</span>
+			<span class="token property">&quot;activityAvatar&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/activities/20170120/1.jpg&quot;</span><span class="token punctuation">,</span>
+			<span class="token property">&quot;type&quot;</span><span class="token operator">:</span> <span class="token string">&quot;official&quot;</span><span class="token punctuation">,</span>
+			<span class="token property">&quot;lv&quot;</span><span class="token operator">:</span> <span class="token number">9</span><span class="token punctuation">,</span>
+			<span class="token property">&quot;gender&quot;</span><span class="token operator">:</span> <span class="token string">&quot;female&quot;</span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+		<span class="token property">&quot;type&quot;</span><span class="token operator">:</span> <span class="token string">&quot;vote&quot;</span><span class="token punctuation">,</span>
+		<span class="token property">&quot;likeCount&quot;</span><span class="token operator">:</span> <span class="token number">371</span><span class="token punctuation">,</span>
+		<span class="token property">&quot;block&quot;</span><span class="token operator">:</span> <span class="token string">&quot;ramble&quot;</span><span class="token punctuation">,</span>
+		<span class="token property">&quot;haveImage&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+		<span class="token property">&quot;state&quot;</span><span class="token operator">:</span> <span class="token string">&quot;normal&quot;</span><span class="token punctuation">,</span>
+		<span class="token property">&quot;updated&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2017-09-16T05:38:16.092Z&quot;</span><span class="token punctuation">,</span>
+		<span class="token property">&quot;created&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2017-09-08T08:51:40.345Z&quot;</span><span class="token punctuation">,</span>
+		<span class="token property">&quot;commentCount&quot;</span><span class="token operator">:</span> <span class="token number">5309</span><span class="token punctuation">,</span>
+		<span class="token property">&quot;voteCount&quot;</span><span class="token operator">:</span> <span class="token number">3980</span><span class="token punctuation">,</span>
+		<span class="token property">&quot;title&quot;</span><span class="token operator">:</span> <span class="token string">&quot;【真够刺激】答题拿红包！邀请好友满30元就能提现！★攻略真的不先看下么！&quot;</span>
+	<span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+	<span class="token property">&quot;ok&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span>
+</code></pre><h3 id="书评-短评"><a href="#书评-短评" aria-hidden="true" class="header-anchor">#</a> 书评-短评</h3><p>url: <code>http://api.zhuishushenqi.com/post/short-review/by-book</code></p><p>request:</p><pre class="language-json"><code>query strings<span class="token operator">:</span> <span class="token punctuation">{</span>
+  book<span class="token operator">:</span> <span class="token punctuation">{</span>bookId<span class="token punctuation">}</span><span class="token punctuation">,</span>
+  sortType<span class="token operator">:</span> (lastUpdated|newest|mostlike<span class="token punctuation">)</span> //排序方式
+  start<span class="token punctuation">,</span>
+  limit
+<span class="token punctuation">}</span>
+</code></pre><p>response:</p><pre class="language-json"><code><span class="token punctuation">{</span>
+  <span class="token property">&quot;docs&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+      <span class="token property">&quot;_id&quot;</span><span class="token operator">:</span> <span class="token string">&quot;596affc7fe0ad34f1b8317e3&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;rating&quot;</span><span class="token operator">:</span> <span class="token number">3</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;type&quot;</span><span class="token operator">:</span> <span class="token string">&quot;short_review&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;author&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">&quot;_id&quot;</span><span class="token operator">:</span> <span class="token string">&quot;596ac9b85d0fe1b460155952&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;avatar&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/avatar/bd/bf/bdbf666388552ebb3166473e3f689dfd&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;nickname&quot;</span><span class="token operator">:</span> <span class="token string">&quot;素心&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;activityAvatar&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;type&quot;</span><span class="token operator">:</span> <span class="token string">&quot;normal&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;lv&quot;</span><span class="token operator">:</span> <span class="token number">4</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;gender&quot;</span><span class="token operator">:</span> <span class="token string">&quot;female&quot;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;book&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">&quot;_id&quot;</span><span class="token operator">:</span> <span class="token string">&quot;51060c88bb1c67cf28000035&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;cover&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F23766%2F_23766_549079.jpg%2F&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;title&quot;</span><span class="token operator">:</span> <span class="token string">&quot;真灵九变&quot;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;likeCount&quot;</span><span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;priority&quot;</span><span class="token operator">:</span> <span class="token number">0.497</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;block&quot;</span><span class="token operator">:</span> <span class="token string">&quot;short_review&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;state&quot;</span><span class="token operator">:</span> <span class="token string">&quot;normal&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;updated&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2017-08-06T09:58:26.733Z&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;created&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2017-07-16T05:55:19.277Z&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;content&quot;</span><span class="token operator">:</span> <span class="token string">&quot;就是结尾有点烂尾了&quot;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;ok&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span>
+</code></pre><h3 id="书评-长评"><a href="#书评-长评" aria-hidden="true" class="header-anchor">#</a> 书评--长评</h3><p>url: <code>http://api.zhuishushenqi.com/post/review/by-book?book=51060c88bb1c67cf28000035&amp;sort=updated&amp;start=0&amp;limit=20</code></p><p>request:</p><pre class="language-json"><code>query strings<span class="token operator">:</span> <span class="token punctuation">{</span>
+  book<span class="token operator">:</span> <span class="token punctuation">{</span>bookId<span class="token punctuation">}</span><span class="token punctuation">,</span>
+  sort<span class="token operator">:</span> (updated|created|comment-count<span class="token punctuation">)</span><span class="token punctuation">,</span>
+  start<span class="token punctuation">,</span>
+  limit
+<span class="token punctuation">}</span>
+</code></pre><p>response:</p><pre class="language-json"><code><span class="token punctuation">{</span>
+	<span class="token property">&quot;total&quot;</span><span class="token operator">:</span> <span class="token number">35</span><span class="token punctuation">,</span>
+	<span class="token property">&quot;reviews&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span>
+		<span class="token property">&quot;_id&quot;</span><span class="token operator">:</span> <span class="token string">&quot;584201194fe8537c0f7fdf32&quot;</span><span class="token punctuation">,</span>
+		<span class="token property">&quot;rating&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+		<span class="token property">&quot;author&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+			<span class="token property">&quot;_id&quot;</span><span class="token operator">:</span> <span class="token string">&quot;580cc42178afb3190f41f5ae&quot;</span><span class="token punctuation">,</span>
+			<span class="token property">&quot;avatar&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/avatar/b3/70/b370b0054ae878829bfae3fe8ceacf3e&quot;</span><span class="token punctuation">,</span>
+			<span class="token property">&quot;nickname&quot;</span><span class="token operator">:</span> <span class="token string">&quot;……&quot;</span><span class="token punctuation">,</span>
+			<span class="token property">&quot;activityAvatar&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/activities/20170120/4.jpg&quot;</span><span class="token punctuation">,</span>
+			<span class="token property">&quot;type&quot;</span><span class="token operator">:</span> <span class="token string">&quot;normal&quot;</span><span class="token punctuation">,</span>
+			<span class="token property">&quot;lv&quot;</span><span class="token operator">:</span> <span class="token number">8</span><span class="token punctuation">,</span>
+			<span class="token property">&quot;gender&quot;</span><span class="token operator">:</span> <span class="token string">&quot;male&quot;</span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+		<span class="token property">&quot;helpful&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+			<span class="token property">&quot;total&quot;</span><span class="token operator">:</span> <span class="token number">35</span><span class="token punctuation">,</span>
+			<span class="token property">&quot;yes&quot;</span><span class="token operator">:</span> <span class="token number">117</span><span class="token punctuation">,</span>
+			<span class="token property">&quot;no&quot;</span><span class="token operator">:</span> <span class="token number">82</span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+		<span class="token property">&quot;likeCount&quot;</span><span class="token operator">:</span> <span class="token number">5</span><span class="token punctuation">,</span>
+		<span class="token property">&quot;state&quot;</span><span class="token operator">:</span> <span class="token string">&quot;normal&quot;</span><span class="token punctuation">,</span>
+		<span class="token property">&quot;updated&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2017-09-13T15:08:48.577Z&quot;</span><span class="token punctuation">,</span>
+		<span class="token property">&quot;created&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2016-12-02T23:17:45.711Z&quot;</span><span class="token punctuation">,</span>
+		<span class="token property">&quot;commentCount&quot;</span><span class="token operator">:</span> <span class="token number">76</span><span class="token punctuation">,</span>
+		<span class="token property">&quot;content&quot;</span><span class="token operator">:</span> <span class="token string">&quot;1）一边声明“猪脚资质一般”，一边又在没有“穿越神器”的情况下给猪脚开挂。修炼速度莫名其妙就比其他人快，这也是“资质一般”？能自圆其说不？\n\n2）明明是凡人流里那种勾心斗角杀人夺宝的世界，猪脚的朋友未免太多了吧？还各个都为猪脚着想，围着猪脚转？凡人流啊！那是神马鸡毛世界，那是人人都可能在你身后打闷棍的世界。想玩哥们弟兄义气江湖的，请出门左手见《飘渺之旅》下车。\n\n3）“俏皮、傲娇”的女主！我拉个擦，这个基本是所有YY书的鹤顶红了，本以为绝迹几千年，没想到还能见！\n\n4）师姐，不是1个，是10个！我进错门了吗？这是许仙传吗？真是许仙传就好了！这分明是睡裤外穿、浓妆艳抹的乡下小保姆嘛！\n\n5）美少妇师傅！你到底想写啥？玩后宫，人妻的请出门右转进晋江。\n\n6）N个陷害猪脚，差点让猪脚死球的同门，猪脚被坑了一次又一次，从来不报复，从来不想解决，于是被人从头坑到尾。请问，你是白求恩还是科利华？还是传说中的圣雄甘地？\n\n7）猪脚开挂升级也就罢了，猪脚的朋友们也是哥哥开挂。一开始书中声称“升溶血修士如何如何难，升锻蛋修士更是千中无一”，好，猪脚开挂，奇遇不断，十几年升到锻蛋！贫道以为这已经是牛逼透顶的了，结果再看，猪脚的朋友们也一个个都锻蛋了！这尼玛也是“如何如何难”？“千中无一”？？拜托你学凡人流，看过凡人没有？？？更恶心的是，就连猪脚随便找得几个土匪小弟，也一个个吃猪尿泡一样升锻蛋了。我。。。。叉。。。。&quot;</span><span class="token punctuation">,</span>
+		<span class="token property">&quot;title&quot;</span><span class="token operator">:</span> <span class="token string">&quot;个人观点，看书前最好看看！&quot;</span>
+	<span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+	<span class="token property">&quot;ok&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span>
+</code></pre><h3 id="书单"><a href="#书单" aria-hidden="true" class="header-anchor">#</a> 书单</h3><p>url: <code>http://api.zhuishushenqi.com/book-list</code></p><p>request:</p><pre class="language-json"><code>query string<span class="token operator">:</span> <span class="token punctuation">{</span>
+  sort<span class="token operator">:</span> (collectorCount|created<span class="token punctuation">)</span><span class="token punctuation">,</span>
+  duration<span class="token operator">:</span> (last-seven-days|all<span class="token punctuation">)</span><span class="token punctuation">,</span>
+  gender<span class="token operator">:</span> (male|female<span class="token punctuation">)</span><span class="token punctuation">,</span>
+  tag<span class="token operator">:</span> (有点多<span class="token punctuation">)</span><span class="token punctuation">,</span>
+  start
+<span class="token punctuation">}</span>
+
+说明<span class="token operator">:</span>
+
+本周最热的query是<span class="token operator">:</span> sort=collectorCount&amp;duration=last-seven-days&amp;start=<span class="token number">0</span>
+最新发布是<span class="token operator">:</span> sort=created&amp;duration=all
+最多收藏是<span class="token operator">:</span> sort=collectorCount&amp;duration=all
+</code></pre><p>response:</p><pre class="language-json"><code><span class="token punctuation">{</span>
+  <span class="token property">&quot;total&quot;</span><span class="token operator">:</span> <span class="token number">241518</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;bookLists&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+      <span class="token property">&quot;_id&quot;</span><span class="token operator">:</span> <span class="token string">&quot;57331505025ffaa06cb28852&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;title&quot;</span><span class="token operator">:</span> <span class="token string">&quot;★星光书局 ★(04－20更&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;author&quot;</span><span class="token operator">:</span> <span class="token string">&quot;人闲&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;desc&quot;</span><span class="token operator">:</span> <span class="token string">&quot;☆准星（不好看），★一星，★★二星，★★★三星，★★★★，★★★★★五星 （持续更新中……）……………本期歌单:周慧敏《自作多情》、赵雷《已是两条路上的人》、张韶涵《寓言》、张惠妹《我最亲爱的》、张惠妹《哭砂》、张惠妹《剪爱》、张碧晨《渡红尘》、Amy Winehouse《You know I'm no good》、邓紫棋《偶尔》、邓紫棋《喜欢你》、叶倩文《曾经心疼》、叶倩文《祝福》&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;gender&quot;</span><span class="token operator">:</span> <span class="token string">&quot;male&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;collectorCount&quot;</span><span class="token operator">:</span> <span class="token number">96298</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;cover&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F41678%2F_41678_412098.jpg%2F&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;bookCount&quot;</span><span class="token operator">:</span> <span class="token number">464</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;ok&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span>
+
+</code></pre><h3 id="书单详情"><a href="#书单详情" aria-hidden="true" class="header-anchor">#</a> 书单详情</h3><p>url: <code>http://api.zhuishushenqi.com/book-list/:bookId</code></p><p>request:</p><pre class="language-json"><code>url params<span class="token operator">:</span> <span class="token punctuation">{</span>
+  bookId<span class="token operator">:</span> <span class="token punctuation">{</span>bookId<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><p>response:</p><pre class="language-json"><code><span class="token punctuation">{</span>
+    <span class="token property">&quot;bookList&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">&quot;_id&quot;</span><span class="token operator">:</span> <span class="token string">&quot;57331505025ffaa06cb28852&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;updated&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2017-05-25T03:18:20.437Z&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;title&quot;</span><span class="token operator">:</span> <span class="token string">&quot;★星光书局 ★(04－20更&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;author&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">&quot;_id&quot;</span><span class="token operator">:</span> <span class="token string">&quot;568dcb55f08722bf2bdeeb38&quot;</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;avatar&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/avatar/41/32/41327b6d253592bb644fa4dd4c5c9b03&quot;</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;nickname&quot;</span><span class="token operator">:</span> <span class="token string">&quot;人闲&quot;</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;type&quot;</span><span class="token operator">:</span> <span class="token string">&quot;normal&quot;</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;lv&quot;</span><span class="token operator">:</span> <span class="token number">9</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;desc&quot;</span><span class="token operator">:</span> <span class="token string">&quot;☆准星（不好看），★一星，★★二星，★★★三星，★★★★，★★★★★五星 （持续更新中……）……………本期歌单:周慧敏《自作多情》、赵雷《已是两条路上的人》、张韶涵《寓言》、张惠妹《我最亲爱的》、张惠妹《哭砂》、张惠妹《剪爱》、张碧晨《渡红尘》、Amy Winehouse《You know I'm no good》、邓紫棋《偶尔》、邓紫棋《喜欢你》、叶倩文《曾经心疼》、叶倩文《祝福》&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;gender&quot;</span><span class="token operator">:</span> <span class="token string">&quot;male&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;created&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2016-05-11T11:18:29.278Z&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;tags&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token string">&quot;热血&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;都市&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;现代&quot;</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;stickStopTime&quot;</span><span class="token operator">:</span> <span class="token null">null</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;isDraft&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;isDistillate&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;collectorCount&quot;</span><span class="token operator">:</span> <span class="token number">96299</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;books&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token punctuation">{</span>
+                <span class="token property">&quot;book&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+                    <span class="token property">&quot;cat&quot;</span><span class="token operator">:</span> <span class="token string">&quot;东方玄幻&quot;</span><span class="token punctuation">,</span>
+                    <span class="token property">&quot;_id&quot;</span><span class="token operator">:</span> <span class="token string">&quot;579eaef492253c435235dbea&quot;</span><span class="token punctuation">,</span>
+                    <span class="token property">&quot;title&quot;</span><span class="token operator">:</span> <span class="token string">&quot;斗战狂潮&quot;</span><span class="token punctuation">,</span>
+                    <span class="token property">&quot;author&quot;</span><span class="token operator">:</span> <span class="token string">&quot;骷髅精灵&quot;</span><span class="token punctuation">,</span>
+                    <span class="token property">&quot;longIntro&quot;</span><span class="token operator">:</span> <span class="token string">&quot;双月当空，无限可能的英魂世界孤寂黑暗，神秘古怪的嬉命小丑百城联邦，三大帝国，异族横行，魂兽霸幽这是一个英雄辈出的年代，人类卧薪尝胆重掌地球主权，孕育着进军高纬度的野望！重点是……二年级的废柴学长王同学，如何使用嬉命轮盘，撬动整个世界，学妹们，请注意，学长来了！！！斗战一群：21222419（两千人战力群）骷髅的微信公共号：kuloujingling00新浪微博：骷髅精灵&quot;</span><span class="token punctuation">,</span>
+                    <span class="token property">&quot;cover&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F1286280%2F_1286280_696459.jpg%2F&quot;</span><span class="token punctuation">,</span>
+                    <span class="token property">&quot;site&quot;</span><span class="token operator">:</span> <span class="token string">&quot;zhuishuvip&quot;</span><span class="token punctuation">,</span>
+                    <span class="token property">&quot;majorCate&quot;</span><span class="token operator">:</span> <span class="token string">&quot;玄幻&quot;</span><span class="token punctuation">,</span>
+                    <span class="token property">&quot;minorCate&quot;</span><span class="token operator">:</span> <span class="token string">&quot;东方玄幻&quot;</span><span class="token punctuation">,</span>
+                    <span class="token property">&quot;banned&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+                    <span class="token property">&quot;latelyFollower&quot;</span><span class="token operator">:</span> <span class="token number">26038</span><span class="token punctuation">,</span>
+                    <span class="token property">&quot;wordCount&quot;</span><span class="token operator">:</span> <span class="token number">1962241</span><span class="token punctuation">,</span>
+                    <span class="token property">&quot;retentionRatio&quot;</span><span class="token operator">:</span> <span class="token number">60.36</span>
+                <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                <span class="token property">&quot;comment&quot;</span><span class="token operator">:</span> <span class="token string">&quot;★★二星…………&quot;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;shareLink&quot;</span><span class="token operator">:</span> <span class="token string">&quot;http://share.zhuishushenqi.com/booklist/57331505025ffaa06cb28852&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token string">&quot;57331505025ffaa06cb28852&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;total&quot;</span><span class="token operator">:</span> <span class="token number">464</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;ok&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span>
+</code></pre></div><!----><!----></div></div></div>
+    <script src="/assets/js/0.dede9cf8.js" defer></script><script src="/assets/js/app.9c0f21c0.js" defer></script>
+  </body>
+</html>

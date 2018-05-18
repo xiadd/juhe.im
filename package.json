@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon -r dotenv/config -r esm server.js dotenv_config_path=.env.development",
-    "start": "node -r dotenv/config -r esm server.js dotenv_config_path=.env.production"
+    "start": "node -r dotenv/config -r esm server.js dotenv_config_path=.env.production",
+    "doc:dev": "vuepress dev _docs",
+    "doc:build": "vuepress build _docs"
   },
   "keywords": [],
   "author": "",
